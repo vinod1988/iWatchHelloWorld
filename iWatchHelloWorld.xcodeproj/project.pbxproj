@@ -21,6 +21,8 @@
 		17B8D9CE1ABC58EE00C31C99 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B8D9CC1ABC58EE00C31C99 /* Interface.storyboard */; };
 		17B8D9D01ABC58EE00C31C99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B8D9CF1ABC58EE00C31C99 /* Images.xcassets */; };
 		17B8D9D31ABC58EE00C31C99 /* iWatchHelloWorld WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 17B8D9B61ABC58ED00C31C99 /* iWatchHelloWorld WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		17B8D9E11ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.06.49 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B8D9DF1ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.06.49 pm.png */; };
+		17B8D9E21ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.07.05 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B8D9E01ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.07.05 pm.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		17B8D9CB1ABC58ED00C31C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17B8D9CD1ABC58EE00C31C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		17B8D9CF1ABC58EE00C31C99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17B8D9DF1ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.06.49 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-03-20 at 7.06.49 pm.png"; sourceTree = "<group>"; };
+		17B8D9E01ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.07.05 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-03-20 at 7.07.05 pm.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 				17B8D9961ABC58DB00C31C99 /* Main.storyboard */,
 				17B8D9991ABC58DB00C31C99 /* Images.xcassets */,
 				17B8D99B1ABC58DB00C31C99 /* LaunchScreen.xib */,
+				17B8D9DF1ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.06.49 pm.png */,
+				17B8D9E01ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.07.05 pm.png */,
 				17B8D98C1ABC58DB00C31C99 /* Supporting Files */,
 			);
 			path = iWatchHelloWorld;
@@ -340,8 +346,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B8D9E11ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.06.49 pm.png in Resources */,
 				17B8D9981ABC58DB00C31C99 /* Main.storyboard in Resources */,
 				17B8D99D1ABC58DB00C31C99 /* LaunchScreen.xib in Resources */,
+				17B8D9E21ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.07.05 pm.png in Resources */,
 				17B8D99A1ABC58DB00C31C99 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -652,6 +660,7 @@
 				17B8D9AE1ABC58DB00C31C99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17B8D9AF1ABC58DB00C31C99 /* Build configuration list for PBXNativeTarget "iWatchHelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -660,6 +669,7 @@
 				17B8D9B11ABC58DB00C31C99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17B8D9D41ABC58EE00C31C99 /* Build configuration list for PBXNativeTarget "iWatchHelloWorld WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -668,6 +678,7 @@
 				17B8D9D61ABC58EE00C31C99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17B8D9D71ABC58EE00C31C99 /* Build configuration list for PBXNativeTarget "iWatchHelloWorld WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -676,6 +687,7 @@
 				17B8D9D91ABC58EE00C31C99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
