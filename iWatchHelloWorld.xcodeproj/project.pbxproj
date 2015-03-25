@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17A5FF721AC2DEC0006F87BD /* ScreenShot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A5FF701AC2DEC0006F87BD /* ScreenShot1.png */; };
+		17A5FF731AC2DEC0006F87BD /* ScreenShot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A5FF711AC2DEC0006F87BD /* ScreenShot2.png */; };
 		17B8D98F1ABC58DB00C31C99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B8D98E1ABC58DB00C31C99 /* main.m */; };
 		17B8D9921ABC58DB00C31C99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B8D9911ABC58DB00C31C99 /* AppDelegate.m */; };
 		17B8D9951ABC58DB00C31C99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B8D9941ABC58DB00C31C99 /* ViewController.m */; };
@@ -21,8 +23,6 @@
 		17B8D9CE1ABC58EE00C31C99 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B8D9CC1ABC58EE00C31C99 /* Interface.storyboard */; };
 		17B8D9D01ABC58EE00C31C99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B8D9CF1ABC58EE00C31C99 /* Images.xcassets */; };
 		17B8D9D31ABC58EE00C31C99 /* iWatchHelloWorld WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 17B8D9B61ABC58ED00C31C99 /* iWatchHelloWorld WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		17B8D9E11ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.06.49 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B8D9DF1ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.06.49 pm.png */; };
-		17B8D9E21ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.07.05 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B8D9E01ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.07.05 pm.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +64,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		17A5FF701AC2DEC0006F87BD /* ScreenShot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot1.png; sourceTree = "<group>"; };
+		17A5FF711AC2DEC0006F87BD /* ScreenShot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot2.png; sourceTree = "<group>"; };
 		17B8D9891ABC58DB00C31C99 /* iWatchHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWatchHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B8D98D1ABC58DB00C31C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17B8D98E1ABC58DB00C31C99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,8 +91,6 @@
 		17B8D9CB1ABC58ED00C31C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17B8D9CD1ABC58EE00C31C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		17B8D9CF1ABC58EE00C31C99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		17B8D9DF1ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.06.49 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-03-20 at 7.06.49 pm.png"; sourceTree = "<group>"; };
-		17B8D9E01ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.07.05 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-03-20 at 7.07.05 pm.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +118,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17A5FF6F1AC2DEC0006F87BD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				17A5FF701AC2DEC0006F87BD /* ScreenShot1.png */,
+				17A5FF711AC2DEC0006F87BD /* ScreenShot2.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		17B8D9801ABC58DB00C31C99 = {
 			isa = PBXGroup;
 			children = (
+				17A5FF6F1AC2DEC0006F87BD /* Images */,
 				17B8D98B1ABC58DB00C31C99 /* iWatchHelloWorld */,
 				17B8D9A51ABC58DB00C31C99 /* iWatchHelloWorldTests */,
 				17B8D9B71ABC58ED00C31C99 /* iWatchHelloWorld WatchKit Extension */,
@@ -150,8 +160,6 @@
 				17B8D9961ABC58DB00C31C99 /* Main.storyboard */,
 				17B8D9991ABC58DB00C31C99 /* Images.xcassets */,
 				17B8D99B1ABC58DB00C31C99 /* LaunchScreen.xib */,
-				17B8D9DF1ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.06.49 pm.png */,
-				17B8D9E01ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.07.05 pm.png */,
 				17B8D98C1ABC58DB00C31C99 /* Supporting Files */,
 			);
 			path = iWatchHelloWorld;
@@ -346,10 +354,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17B8D9E11ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.06.49 pm.png in Resources */,
+				17A5FF731AC2DEC0006F87BD /* ScreenShot2.png in Resources */,
 				17B8D9981ABC58DB00C31C99 /* Main.storyboard in Resources */,
+				17A5FF721AC2DEC0006F87BD /* ScreenShot1.png in Resources */,
 				17B8D99D1ABC58DB00C31C99 /* LaunchScreen.xib in Resources */,
-				17B8D9E21ABC5F8000C31C99 /* Screen Shot 2015-03-20 at 7.07.05 pm.png in Resources */,
 				17B8D99A1ABC58DB00C31C99 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
